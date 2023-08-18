@@ -8,6 +8,6 @@ RUN npm ci
 
 COPY . .
 
-EXPOSE 4000
+EXPOSE 4000/tcp
 
 CMD [ "npm","run", "start:prod" ]
