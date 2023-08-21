@@ -21,6 +21,7 @@ if(config.app.environment.isInDevelopment || config.app.environment.isInTesting)
 
 app.use(express.json());
 app.use(helmet());
+app.disable('x-powered-by');  
 app.use(compression());
 app.use(globalRateLimiter);
 app.use(cors(corsOptions));

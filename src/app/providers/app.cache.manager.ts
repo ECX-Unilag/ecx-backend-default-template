@@ -1,7 +1,7 @@
 import { Redis, RedisOptions } from "ioredis";
 
 import { dispatch } from "./app.events";
-import { logger, config, cacheOptions } from "../core";
+import { logger, config, cacheOptions } from "../../core";
 
 
 export class AppCacheManager extends Redis {

@@ -1,5 +1,6 @@
 import { Logger } from "winston";
-import { config, prodDevLogger, buildDevLogger } from "../config";
+import { prodDevLogger, buildDevLogger } from "./logs";
 
-export const logger: Logger = 
-  config.app.environment === "production" ? prodDevLogger() : buildDevLogger();
+export const logger: Logger = process.env.NODE_ENV === "production" 
+    ? prodDevLogger() 
+    : buildDevLogger();

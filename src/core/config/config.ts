@@ -7,6 +7,7 @@ export const config = Object.freeze({
   app: {
     port: parseInt(process.env.PORT!),
     environment: {
+      mode: process.env.NODE_ENV,
       isInProduction: process.env.NODE_ENV === ENVIRONMENT.PROD,
       isInDevelopment: process.env.NODE_ENV === ENVIRONMENT.DEV,
       isInTesting: process.env.NODE_ENV === ENVIRONMENT.TEST,
@@ -35,12 +36,18 @@ export const config = Object.freeze({
   },
   db: {
     mongodb: {
-
+      MONGO_URL: process.env.MONGODB_URL as string,
     },
     postgresql: {
+      POSTGRESQL_USER: process.env.POSTGRESQL_USER as string,
+      POSTGRESQL_USER_PASSWORD: process.env.POSTGRESQL_USER_PASSWORD as string,
+      POSTGRESQL_DATABASE: process.env.POSTGRESQL_DATABASE as string,
+      POSTGRESQL_PORT: parseInt(process.env.POSTGRESQL_PORT!)
     }
   },
   rateLimit: {
     limit: process.env.WINDOW_RATE_LIMIT,
   },
 });
+
+export default config;

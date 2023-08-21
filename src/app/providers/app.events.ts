@@ -1,6 +1,6 @@
 import { EventEmitter2 as Event } from "eventemitter2";
 
-import { EventListenerMap, Listener } from "../core";
+import { EventListenerMap, Listener } from "../../core";
 import { register } from "./event.listener.register";
 import { eventKeys, AppEventListenerMap } from "./helper.types";
 

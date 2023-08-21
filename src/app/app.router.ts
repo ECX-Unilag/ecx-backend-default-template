@@ -1,7 +1,7 @@
 import { Request, Router, Response } from "express";
 
-import { HttpStatus, controllerHandler } from "../core";
-import { authRouter, currentUser } from "../auth";
+import { HttpStatus } from "../core";
+import { authRouter } from "../auth";
 
 
 export const appRouter = Router();

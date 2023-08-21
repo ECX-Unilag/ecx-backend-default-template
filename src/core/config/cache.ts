@@ -1,6 +1,6 @@
 import { RedisOptions } from "ioredis";
 
-import { config } from "./config";
+import config from "./config";
 
 export const cacheOptions: RedisOptions = {
   port: config.cache.port,
