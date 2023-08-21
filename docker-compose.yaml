@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  ecx_api:
+    container_name: 'ecx_api'
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "4000:4000"
+    env_file:
+      - docker.env
+  
+networks:
+  default:
