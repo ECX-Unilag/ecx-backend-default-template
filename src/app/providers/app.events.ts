@@ -32,7 +32,7 @@ class AppEventManager extends Event {
     event: T,
     ...values: AppEventListenerMap[T]
   ): Promise<void> => {
-    this.emit(event, values);
+    this.emit(event, ...values);
   };
 }
 
