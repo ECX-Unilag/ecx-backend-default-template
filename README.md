@@ -5,18 +5,19 @@ in wierd cases.
 ****
 ## SETUP
 ****
+
+### Clone project
+
+```git
+  git clone git@github.com:Engineering-Career-Expo/backend-template.git
+```
+
 ### Install dependencies
 ```bash
   🍕. npm install  
   🦄. bun install 
   
   install bun here [here](https://bun.sh/, 'link')
-```
-
-### Clone project
-
-```git
-  git clone git@github.com:Engineering-Career-Expo/backend-template.git
 ```
 
 ### Create environment files and file them correctly
