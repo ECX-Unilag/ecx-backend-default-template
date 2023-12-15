@@ -6,7 +6,7 @@ a wierd case happens.
 ## SETUP
 ****
 ### Install dependencies
-```json
+```bash
   🍕. npm install  
   🦄. bun install 
   
@@ -15,22 +15,22 @@ a wierd case happens.
 
 ### Clone project
 
-```json
+```git
   git clone git@github.com:Engineering-Career-Expo/backend-template.git
 ```
 
 ### Create environment files and file them correctly
-```json
+```bash
   cp .env.example .env
 ```
 
 ### Start project [dev mode]
-```json
+```bash
   npm run start:dev
 ```
 
 ### Start project [prod]
-```json
+```bash
   npm run start:prod
 ```
 
