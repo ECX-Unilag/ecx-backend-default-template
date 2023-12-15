@@ -13,7 +13,7 @@ in wierd cases.
 ```
 
 ### Install dependencies
-```bash
+```markdown
   🍕. npm install  
   🦄. bun install 
   
