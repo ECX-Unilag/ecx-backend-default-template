@@ -17,7 +17,7 @@ in wierd cases.
   🍕. npm install  
   🦄. bun install 
   
-  install bun here [here](https://bun.sh/, 'link')
+  install bun here https://bun.sh/
 ```
 
 ### Create environment files and file them correctly
