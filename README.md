@@ -1,14 +1,14 @@
 # ecx-backend-default-template
-This is the default template to be used for every project during ECX 4.0
-
+ECX 4.0 Backend cohort template to used in every project except 
+a wierd case happens.
 
 ****
 ## SETUP
 ****
 ### Install dependencies
 ```json
-  1. npm install 
-  2. bun install 
+  🍕. npm install  
+  🦄. bun install 
   
   install bun here [here](https://bun.sh/, 'link')
 ```
