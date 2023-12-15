@@ -37,8 +37,8 @@ a wierd case happens.
 **** 
 # GUIDELINES
 ****
-* When creating *new branch* if
-  - fixing a bug: follow the pattern *`fix/<name-of-fix>`*
-  - implementing a new feature *`feat/<name-of-feature>`*
+* When creating *new branch* if you're fixing a bug or implementing a feature follow this pattern
+  - fixing: *`fix/<name-of-fix>`*
+  - feature: *`feat/<name-of-feature>`*
 * Never commit directly into the *`main`* branch.
 
