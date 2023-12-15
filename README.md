@@ -1,6 +1,6 @@
 # ecx-backend-default-template
 ECX 4.0 Backend cohort template to used in every project except 
-a wierd case happens.
+in wierd cases.
 
 ****
 ## SETUP
